@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://AlmutHintze.github.io/IIIF/manifests/manifest-2.json",
+  "@type" : "sc:Manifest",
+  "label" : "0003_Zolfeghari",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://aa30518e-8b72-495b-bee0-989f0b16d4a8",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c9d9fa37-3562-4ec6-8713-015621edf122",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 8v",
+      "height" : 2168,
+      "width" : 1700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://14f12a4f-befa-4231-ac63-ce4b81e737ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://almuthintze.github.io/IIIF/images/0003_Zolfeghari_008v/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://almuthintze.github.io/IIIF/images/0003_Zolfeghari_008v",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2168,
+          "width" : 1700
+        },
+        "on" : "http://c9d9fa37-3562-4ec6-8713-015621edf122"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e168fcce-9c20-48a2-8c47-7484c8b1a0e6",
+      "@type" : "sc:Canvas",
+      "label" : "fol. 9r",
+      "height" : 2060,
+      "width" : 1608,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0751c94b-6a2f-4544-8d95-103dc2fd503c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://almuthintze.github.io/IIIF/images/0003_Zolfeghari_009r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://almuthintze.github.io/IIIF/images/0003_Zolfeghari_009r",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2060,
+          "width" : 1608
+        },
+        "on" : "http://e168fcce-9c20-48a2-8c47-7484c8b1a0e6"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
